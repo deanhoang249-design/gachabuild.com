@@ -75,9 +75,9 @@ export default function GuidesPage() {
           </article>
 
           <article className="professional-card p-6">
-            <h2 className="text-heading-2 mb-4">Beginner's Guide</h2>
+            <h2 className="text-heading-2 mb-4">Beginner&apos;s Guide</h2>
             <p className="text-body text-gray-700 mb-4">
-              New to Duet Night Abyss? Start here with our comprehensive beginner's guide.
+              New to Duet Night Abyss? Start here with our comprehensive beginner&apos;s guide.
             </p>
             <div className="btn-secondary">
               Coming Soon

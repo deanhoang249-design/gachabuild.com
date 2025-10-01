@@ -6,6 +6,13 @@ import CharacterDetailClient from '@/components/CharacterDetailClient';
 // Export metadata generation
 export { generateMetadata };
 
+// Generate static params for all characters
+export async function generateStaticParams() {
+  return characters.map((character) => ({
+    slug: character.id,
+  }));
+}
+
 interface CharacterDetailPageProps {
   params: Promise<{
     slug: string;
