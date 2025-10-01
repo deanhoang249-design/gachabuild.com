@@ -3,7 +3,6 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   output: 'export',
   trailingSlash: true,
-  distDir: 'out',
   images: {
     unoptimized: true,
     formats: ['image/webp', 'image/avif'],
@@ -16,9 +15,6 @@ const nextConfig: NextConfig = {
   compress: true,
   poweredByHeader: false,
   generateEtags: true,
-  experimental: {
-    optimizeCss: false,
-  },
 };
 
 export default nextConfig;
