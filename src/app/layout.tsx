@@ -16,6 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://duetnightabyss.gachabuild.com'),
   title: "Duet Night Abyss Character Tier List & Guide Hub | DNA Studio",
   description: "Complete Duet Night Abyss character tier list, builds, and strategies. Find the best DNA characters ranked by effectiveness. Expert guides for Vanguard, Support, and Annihilator roles.",
   keywords: "Duet Night Abyss, DNA, character tier list, character guide, builds, strategies, vanguard, support, annihilator, gacha game, tier list, character database, game guide",
